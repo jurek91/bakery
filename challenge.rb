@@ -56,39 +56,3 @@ puts "=" * 30
 puts "See you next time!"
 
 
-
-
-
-
-# cart_price = cart.map { |item, quantity| [item] * quantity }.sum
-# puts "=" * 30
-# cart.each do |item, quantity|
-#   # final_variable = store.map { |item, price| store[item]}
-#   puts "#{item}: #{quantity} x $#{bakery[item]}".center(30)
-
-# end
-# # 3. Display the amount for each item before the total
-# puts "Total: $#{cart_price}".center(30)
-# until !combination.empty || > qty
-
-
-# def dispatch_line_item_qty
-#     num_of_packs = 1
-#     combination = []
-#     # until a combination matches @qty or that the num of packs is greater than quantity, we keep looking for a combination
-#     until !combination.empty? || num_of_packs > qty
-#       combination = find_combination_matching_qty
-#       num_of_packs += 1
-#     end
-#     num_of_packs > qty ? unvalid_qty_error : detail = detail_line_item
-#   end
-
-
-#    def detail_line_item
-#     @combination.first.group_by(&:itself).map { |k, v| "#{v.size} x #{k} $#{@product.packs[k]}" }
-#   end
-
-
-# def find_combination_matching_qty
-#     @product.packs_qty?.repeated_combination(@num_of_packs).filter { |num| num.sum == @qty }
-#   end
